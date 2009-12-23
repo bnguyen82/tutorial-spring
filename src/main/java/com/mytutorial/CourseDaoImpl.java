@@ -34,6 +34,12 @@ public class CourseDaoImpl extends HibernateDaoSupport implements CourseDao {
 		return getHibernateTemplate().find("From Course");
 	}
 	
+	public void update(List<Course> listCourses) {
+		for (Course course : listCourses) {
+			getHibernateTemplate().update(course);
+		}		
+	}
+	
 //	public SessionFactory getSessionFactory() {
 //		return this.sessionFactory;
 //	}

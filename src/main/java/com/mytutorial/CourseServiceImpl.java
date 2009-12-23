@@ -20,4 +20,10 @@ public class CourseServiceImpl implements CourseService {
 		List<Course> list = (List<Course>) courseDao.findAll();
 		System.out.println("The saved courses are --> " + list);
 	}
+	
+	public void updateCourse(List<Course> listCourses){
+		courseDao.update(listCourses);
+		List<Course> list = (List<Course>) courseDao.findAll();
+		System.out.println("The saved courses are --> " + list);		
+	}
 }
