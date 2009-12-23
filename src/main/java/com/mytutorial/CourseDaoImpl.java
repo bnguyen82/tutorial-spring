@@ -1,12 +1,13 @@
 package com.mytutorial;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import java.util.List;
 
 import org.hibernate.SessionFactory;
 import org.springframework.orm.hibernate3.HibernateTemplate;
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 public class CourseDaoImpl extends HibernateDaoSupport implements CourseDao {
-
+	public static final Logger LOG = LoggerFactory.getLogger(CourseDaoImpl.class);
 //	private SessionFactory sessionFactory = null;
 	
 //	static {
@@ -29,6 +30,7 @@ public class CourseDaoImpl extends HibernateDaoSupport implements CourseDao {
 		}
 	}
 	public List findAll() {
+		LOG.info("Find all course in DB");
 //		Session session = sessionFactory.openSession();
 //		HibernateTemplate htp = new HibernateTemplate(sessionFactory);
 		return getHibernateTemplate().find("From Course");
