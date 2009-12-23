@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="com.mytutorial.AppTest" skipped="0" tests="1" errors="0" time="0.032" failures="0">
+  <properties>
+    <property value="ON" name="java.assistive"/>
+    <property value="Java(TM) 2 Runtime Environment, Standard Edition" name="java.runtime.name"/>
+    <property value="false" name="ibm.signalhandling.rs"/>
+    <property value="C:\Program Files\IBM\Java50\jre\bin" name="sun.boot.library.path"/>
+    <property value="2.3" name="java.vm.version"/>
+    <property value="scar" name="com.ibm.oti.configuration"/>
+    <property value="IBM Corporation" name="java.vm.vendor"/>
+    <property value="http://www.ibm.com/" name="java.vendor.url"/>
+    <property value=";" name="path.separator"/>
+    <property value="IBM J9 VM" name="java.vm.name"/>
+    <property value="US" name="user.country"/>
+    <property value="Cp437" name="console.encoding"/>
+    <property value="Java Virtual Machine Specification" name="java.vm.specification.name"/>
+    <property value="C:\java\simple" name="user.dir"/>
+    <property value="pwi32devifx-20081023a (SR8a + IZ34138)" name="java.runtime.version"/>
+    <property value="J2RE 1.5.0 IBM J9 2.3 Windows XP x86-32 j9vmwi3223ifx-20080811 (JIT enabled)
+J9VM - 20080809_21892_lHdSMr
+JIT  - 20080620_1845_r8
+GC   - 200806_19" name="java.fullversion"/>
+    <property value="sun.awt.Win32GraphicsEnvironment" name="java.awt.graphicsenv"/>
+    <property value="C:\java\simple" name="basedir"/>
+    <property value="x86" name="os.arch"/>
+    <property value="32" name="com.ibm.vm.bitmode"/>
+    <property value="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\surefirebooter20408.jar" name="surefire.real.class.path"/>
+    <property value="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\" name="java.io.tmpdir"/>
+    <property value="" name="com.ibm.util.extralibs.properties"/>
+    <property value="
+" name="line.separator"/>
+    <property value="Sun Microsystems Inc." name="java.vm.specification.vendor"/>
+    <property value="" name="user.variant"/>
+    <property value="" name="java.awt.fonts"/>
+    <property value="Windows XP" name="os.name"/>
+    <property value="" name="sun.java2d.fontpath"/>
+    <property value="20081016a" name="java.jcl.version"/>
+    <property value="Cp1252" name="sun.jnu.encoding"/>
+    <property value="C:\Program Files\IBM\Java50\jre\bin;.;C:\oracle\product\10.2.0\db_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\IBM\Infoprint Select;C:\Notes;C:\Program Files\XLView;C:\lotus\compnent;C:\Utilities;C:\Program Files\IBM\Personal Communications\;C:\Program Files\IBM\Trace Facility\;C:\WINDOWS\Downloaded Program Files;C:\Program Files\TortoiseSVN\bin;C:\Program Files\IBM\Java50\bin;C:\apache-maven-2.0.8\bin;C:\Program Files\Common Files\GTK\2.0\bin;C:\Program Files\CVSNT\;C:\apache-maven-2.0.8\bin" name="java.library.path"/>
+    <property value="9" name="jxe.current.romimage.version"/>
+    <property value="C:\java\simple\target\classes;C:\java\simple\target\test-classes;C:\java\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;" name="surefire.test.class.path"/>
+    <property value="C:\Program Files\IBM\Java50\jre\bin" name="com.ibm.oti.vm.bootstrap.library.path"/>
+    <property value="49.0" name="java.class.version"/>
+    <property value="Java Platform API Specification" name="java.specification.name"/>
+    <property value="little" name="com.ibm.cpu.endian"/>
+    <property value="Cp1252" name="ibm.system.encoding"/>
+    <property value="" name="invokedviajava"/>
+    <property value="java.util.prefs.WindowsPreferencesFactory" name="java.util.prefs.PreferencesFactory"/>
+    <property value="5.1 build 2600 Service Pack 2" name="os.version"/>
+    <property value="23" name="com.ibm.oti.vm.library.version"/>
+    <property value="C:\Documents and Settings\Administrator" name="user.home"/>
+    <property value="" name="user.timezone"/>
+    <property value="sun.awt.windows.WPrinterJob" name="java.awt.printerjob"/>
+    <property value="1.5" name="java.specification.version"/>
+    <property value="Cp1252" name="file.encoding"/>
+    <property value="C:\java\simple\target\classes;C:\java\simple\target\test-classes;C:\java\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;" name="java.class.path"/>
+    <property value="IBMer" name="user.name"/>
+    <property value="1.0" name="java.vm.specification.version"/>
+    <property value="C:\Program Files\IBM\Java50\jre" name="java.home"/>
+    <property value="32" name="sun.arch.data.model"/>
+    <property value="Sun Microsystems Inc." name="java.specification.vendor"/>
+    <property value="true" name="ibm.signalhandling.sigint"/>
+    <property value="en" name="user.language"/>
+    <property value="20080809_1128" name="com.ibm.oti.jcl.build"/>
+    <property value="UTF8" name="os.encoding"/>
+    <property value="sun.awt.windows.WToolkit" name="awt.toolkit"/>
+    <property value="J2RE 1.5.0 IBM J9 2.3 Windows XP x86-32 j9vmwi3223ifx-20080811 (JIT enabled)
+J9VM - 20080809_21892_lHdSMr
+JIT  - 20080620_1845_r8
+GC   - 200806_19" name="java.vm.info"/>
+    <property value="1.5.0" name="java.version"/>
+    <property value="C:\Program Files\IBM\Java50\jre\lib\ext" name="java.ext.dirs"/>
+    <property value="C:\Program Files\IBM\Java50\jre\lib\vm.jar;C:\Program Files\IBM\Java50\jre\lib\core.jar;C:\Program Files\IBM\Java50\jre\lib\charsets.jar;C:\Program Files\IBM\Java50\jre\lib\graphics.jar;C:\Program Files\IBM\Java50\jre\lib\security.jar;C:\Program Files\IBM\Java50\jre\lib\ibmpkcs.jar;C:\Program Files\IBM\Java50\jre\lib\ibmorb.jar;C:\Program Files\IBM\Java50\jre\lib\ibmcfw.jar;C:\Program Files\IBM\Java50\jre\lib\ibmorbapi.jar;C:\Program Files\IBM\Java50\jre\lib\ibmjcefw.jar;C:\Program Files\IBM\Java50\jre\lib\ibmjgssprovider.jar;C:\Program Files\IBM\Java50\jre\lib\ibmjsseprovider2.jar;C:\Program Files\IBM\Java50\jre\lib\ibmjaaslm.jar;C:\Program Files\IBM\Java50\jre\lib\ibmjaasactivelm.jar;C:\Program Files\IBM\Java50\jre\lib\ibmcertpathprovider.jar;C:\Program Files\IBM\Java50\jre\lib\server.jar;C:\Program Files\IBM\Java50\jre\lib\xml.jar" name="sun.boot.class.path"/>
+    <property value="9" name="jxe.lowest.romimage.version"/>
+    <property value="IBM Corporation" name="java.vendor"/>
+    <property value="C:/java/.m2/repository" name="localRepository"/>
+    <property value="\" name="file.separator"/>
+    <property value="j9jit23" name="java.compiler"/>
+    <property value="UnicodeLittle" name="sun.io.unicode.encoding"/>
+    <property value="true" name="ibm.signalhandling.sigchain"/>
+  </properties>
+  <testcase classname="com.mytutorial.AppTest" name="testApp" time="0"/>
+</testsuite>
