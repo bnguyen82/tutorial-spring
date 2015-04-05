@@ -1,0 +1,1 @@
+Tutorial for using spring hibernate maven with Eclipse
